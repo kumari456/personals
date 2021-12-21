@@ -1,0 +1,54 @@
+k8install/Spark@dxc1
+
+
+systemctl status elasticsearch
+ hostname -i
+ hostname -f
+cd /etc/elasticsearch/
+ls -l
+cat elasticsearch.yml
+sudo cat elasticsearch.yml
+#logs
+ cd /devops/elk/log/elasticsearch
+ ls -l
+ #data stores
+ cd /devops/elk/lib/elasticsearch
+ ls
+ cd nodes/0/indices
+ ls -l
+ 
+ tail -f elasticsearch.log
+ ll
+ rm -rf gc.log.*
+ ll
+ rm -rf *.gz
+ ll
+ systemctl status elasticsearch
+ systemctl restart elasticsearch
+ sudo systemctl restart elasticsearch
+ systemctl status elasticsearch
+ cd /etc/
+ ls
+ cd logs
+ logstash
+ cd logstash
+ ls
+ cd conf.d
+ ls
+ cat logstash.conf
+ cd ..
+ ls
+ cat logstash.yml
+ cd /devops/elk/log/logstash
+ ls
+rm -rf *.gz
+sudo systemctl restart elasticsearch
+sudo systemctl status elasticsearch
+tail -f .
+cat /etc/os-release
+ netstat -tunlp | grep 443
+ cat /etc/os-release
+lscpu
+===================
+downloading
+https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.1-x86_64.rpm
